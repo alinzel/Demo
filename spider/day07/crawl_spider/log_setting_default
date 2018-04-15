@@ -1,0 +1,268 @@
+2018-03-06 20:37:58 [crawlspider] WARNING: warninghttp://python.jobbole.com/all-posts/page/2/
+2018-03-06 20:37:58 [crawlspider] ERROR: errorhttp://python.jobbole.com/all-posts/page/2/
+2018-03-06 20:37:58 [crawlspider] WARNING: warninghttp://python.jobbole.com/all-posts/page/81/
+2018-03-06 20:37:58 [crawlspider] ERROR: errorhttp://python.jobbole.com/all-posts/page/81/
+2018-03-06 20:37:58 [crawlspider] WARNING: warninghttp://python.jobbole.com/all-posts/page/3/
+2018-03-06 20:37:58 [crawlspider] ERROR: errorhttp://python.jobbole.com/all-posts/page/3/
+2018-03-06 20:38:00 [crawlspider] WARNING: warninghttp://python.jobbole.com/all-posts/page/79/
+2018-03-06 20:38:00 [crawlspider] ERROR: errorhttp://python.jobbole.com/all-posts/page/79/
+2018-03-06 20:38:00 [crawlspider] WARNING: warninghttp://python.jobbole.com/all-posts/page/80/
+2018-03-06 20:38:00 [crawlspider] ERROR: errorhttp://python.jobbole.com/all-posts/page/80/
+2018-03-06 20:38:00 [crawlspider] WARNING: warninghttp://python.jobbole.com/all-posts/page/5/
+2018-03-06 20:38:00 [crawlspider] ERROR: errorhttp://python.jobbole.com/all-posts/page/5/
+2018-03-06 20:38:01 [crawlspider] WARNING: warninghttp://python.jobbole.com/all-posts/page/4/
+2018-03-06 20:38:01 [crawlspider] ERROR: errorhttp://python.jobbole.com/all-posts/page/4/
+2018-03-06 20:38:02 [crawlspider] WARNING: warninghttp://python.jobbole.com/all-posts/
+2018-03-06 20:38:02 [crawlspider] ERROR: errorhttp://python.jobbole.com/all-posts/
+2018-03-06 20:38:03 [crawlspider] WARNING: warninghttp://python.jobbole.com/all-posts/page/7/
+2018-03-06 20:38:03 [crawlspider] ERROR: errorhttp://python.jobbole.com/all-posts/page/7/
+2018-03-06 20:38:03 [crawlspider] WARNING: warninghttp://python.jobbole.com/all-posts/page/6/
+2018-03-06 20:38:03 [crawlspider] ERROR: errorhttp://python.jobbole.com/all-posts/page/6/
+2018-03-06 20:38:04 [crawlspider] WARNING: warninghttp://python.jobbole.com/all-posts/page/8/
+2018-03-06 20:38:04 [crawlspider] ERROR: errorhttp://python.jobbole.com/all-posts/page/8/
+2018-03-06 20:38:04 [crawlspider] WARNING: warninghttp://python.jobbole.com/all-posts/page/9/
+2018-03-06 20:38:04 [crawlspider] ERROR: errorhttp://python.jobbole.com/all-posts/page/9/
+2018-03-06 20:39:08 [scrapy.utils.log] INFO: Scrapy 1.5.0 started (bot: crawl_spider)
+2018-03-06 20:39:08 [scrapy.utils.log] INFO: Versions: lxml 4.1.1.0, libxml2 2.9.7, cssselect 1.0.3, parsel 1.4.0, w3lib 1.19.0, Twisted 17.9.0, Python 3.5.2 (default, Nov 23 2017, 16:37:01) - [GCC 5.4.0 20160609], pyOpenSSL 17.5.0 (OpenSSL 1.1.0g  2 Nov 2017), cryptography 2.1.4, Platform Linux-4.13.0-36-generic-x86_64-with-Ubuntu-16.04-xenial
+2018-03-06 20:39:08 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'crawl_spider', 'NEWSPIDER_MODULE': 'crawl_spider.spiders', 'LOG_FILE': './log_setting_default', 'LOG_LEVEL': 'INFO', 'SPIDER_MODULES': ['crawl_spider.spiders']}
+2018-03-06 20:39:08 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.memusage.MemoryUsage',
+ 'scrapy.extensions.telnet.TelnetConsole']
+2018-03-06 20:39:08 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2018-03-06 20:39:08 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2018-03-06 20:39:09 [scrapy.middleware] INFO: Enabled item pipelines:
+['crawl_spider.pipelines.CrawlSpiderPipeline']
+2018-03-06 20:39:09 [scrapy.core.engine] INFO: Spider opened
+2018-03-06 20:39:09 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2018-03-06 20:39:09 [crawlspider] INFO: infohttp://python.jobbole.com/all-posts/page/2/
+2018-03-06 20:39:09 [crawlspider] WARNING: warninghttp://python.jobbole.com/all-posts/page/2/
+2018-03-06 20:39:09 [crawlspider] ERROR: errorhttp://python.jobbole.com/all-posts/page/2/
+2018-03-06 20:39:09 [crawlspider] INFO: infohttp://python.jobbole.com/all-posts/page/3/
+2018-03-06 20:39:09 [crawlspider] WARNING: warninghttp://python.jobbole.com/all-posts/page/3/
+2018-03-06 20:39:09 [crawlspider] ERROR: errorhttp://python.jobbole.com/all-posts/page/3/
+2018-03-06 20:39:09 [crawlspider] INFO: infohttp://python.jobbole.com/all-posts/page/81/
+2018-03-06 20:39:09 [crawlspider] WARNING: warninghttp://python.jobbole.com/all-posts/page/81/
+2018-03-06 20:39:09 [crawlspider] ERROR: errorhttp://python.jobbole.com/all-posts/page/81/
+2018-03-06 20:39:11 [crawlspider] INFO: infohttp://python.jobbole.com/all-posts/page/5/
+2018-03-06 20:39:11 [crawlspider] WARNING: warninghttp://python.jobbole.com/all-posts/page/5/
+2018-03-06 20:39:11 [crawlspider] ERROR: errorhttp://python.jobbole.com/all-posts/page/5/
+2018-03-06 20:39:11 [crawlspider] INFO: infohttp://python.jobbole.com/all-posts/page/80/
+2018-03-06 20:39:11 [crawlspider] WARNING: warninghttp://python.jobbole.com/all-posts/page/80/
+2018-03-06 20:39:11 [crawlspider] ERROR: errorhttp://python.jobbole.com/all-posts/page/80/
+2018-03-06 20:39:11 [crawlspider] INFO: infohttp://python.jobbole.com/all-posts/page/79/
+2018-03-06 20:39:11 [crawlspider] WARNING: warninghttp://python.jobbole.com/all-posts/page/79/
+2018-03-06 20:39:11 [crawlspider] ERROR: errorhttp://python.jobbole.com/all-posts/page/79/
+2018-03-06 20:39:12 [scrapy.crawler] INFO: Received SIG_SETMASK, shutting down gracefully. Send again to force 
+2018-03-06 20:39:12 [scrapy.core.engine] INFO: Closing spider (shutdown)
+2018-03-06 20:39:13 [crawlspider] INFO: infohttp://python.jobbole.com/all-posts/page/77/
+2018-03-06 20:39:13 [crawlspider] WARNING: warninghttp://python.jobbole.com/all-posts/page/77/
+2018-03-06 20:39:13 [crawlspider] ERROR: errorhttp://python.jobbole.com/all-posts/page/77/
+2018-03-06 20:39:13 [crawlspider] INFO: infohttp://python.jobbole.com/all-posts/page/78/
+2018-03-06 20:39:13 [crawlspider] WARNING: warninghttp://python.jobbole.com/all-posts/page/78/
+2018-03-06 20:39:13 [crawlspider] ERROR: errorhttp://python.jobbole.com/all-posts/page/78/
+2018-03-06 20:39:13 [crawlspider] INFO: infohttp://python.jobbole.com/all-posts/page/7/
+2018-03-06 20:39:13 [crawlspider] WARNING: warninghttp://python.jobbole.com/all-posts/page/7/
+2018-03-06 20:39:13 [crawlspider] ERROR: errorhttp://python.jobbole.com/all-posts/page/7/
+2018-03-06 20:39:13 [crawlspider] INFO: infohttp://python.jobbole.com/all-posts/page/6/
+2018-03-06 20:39:13 [crawlspider] WARNING: warninghttp://python.jobbole.com/all-posts/page/6/
+2018-03-06 20:39:13 [crawlspider] ERROR: errorhttp://python.jobbole.com/all-posts/page/6/
+2018-03-06 20:39:13 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 20018,
+ 'downloader/request_count': 72,
+ 'downloader/request_method_count/GET': 72,
+ 'downloader/response_bytes': 1696445,
+ 'downloader/response_count': 72,
+ 'downloader/response_status_count/200': 72,
+ 'dupefilter/filtered': 78,
+ 'finish_reason': 'shutdown',
+ 'finish_time': datetime.datetime(2018, 3, 6, 12, 39, 13, 950731),
+ 'item_scraped_count': 61,
+ 'log_count/ERROR': 10,
+ 'log_count/INFO': 18,
+ 'log_count/WARNING': 10,
+ 'memusage/max': 1330933760,
+ 'memusage/startup': 1330933760,
+ 'request_depth_max': 4,
+ 'response_received_count': 72,
+ 'scheduler/dequeued': 72,
+ 'scheduler/dequeued/memory': 72,
+ 'scheduler/enqueued': 189,
+ 'scheduler/enqueued/memory': 189,
+ 'start_time': datetime.datetime(2018, 3, 6, 12, 39, 9, 44692)}
+2018-03-06 20:39:13 [scrapy.core.engine] INFO: Spider closed (shutdown)
+2018-03-06 20:45:01 [scrapy.utils.log] INFO: Scrapy 1.5.0 started (bot: crawl_spider)
+2018-03-06 20:45:01 [scrapy.utils.log] INFO: Versions: lxml 4.1.1.0, libxml2 2.9.7, cssselect 1.0.3, parsel 1.4.0, w3lib 1.19.0, Twisted 17.9.0, Python 3.5.2 (default, Nov 23 2017, 16:37:01) - [GCC 5.4.0 20160609], pyOpenSSL 17.5.0 (OpenSSL 1.1.0g  2 Nov 2017), cryptography 2.1.4, Platform Linux-4.13.0-36-generic-x86_64-with-Ubuntu-16.04-xenial
+2018-03-06 20:45:01 [scrapy.crawler] INFO: Overridden settings: {'LOG_FILE': './log_setting_default', 'LOG_LEVEL': 'INFO', 'NEWSPIDER_MODULE': 'crawl_spider.spiders', 'SPIDER_MODULES': ['crawl_spider.spiders'], 'BOT_NAME': 'crawl_spider'}
+2018-03-06 20:45:01 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.memusage.MemoryUsage']
+2018-03-06 20:45:01 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2018-03-06 20:45:01 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2018-03-06 20:45:01 [scrapy.middleware] INFO: Enabled item pipelines:
+['crawl_spider.pipelines.CrawlSpiderPipeline']
+2018-03-06 20:45:01 [scrapy.core.engine] INFO: Spider opened
+2018-03-06 20:45:01 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2018-03-06 20:45:02 [日志以此来开头] INFO: infohttp://python.jobbole.com/all-posts/page/2/
+2018-03-06 20:45:02 [日志以此来开头] INFO: infohttp://python.jobbole.com/all-posts/page/3/
+2018-03-06 20:45:02 [日志以此来开头] INFO: infohttp://python.jobbole.com/all-posts/page/81/
+2018-03-06 20:45:04 [日志以此来开头] INFO: infohttp://python.jobbole.com/all-posts/page/79/
+2018-03-06 20:45:04 [日志以此来开头] INFO: infohttp://python.jobbole.com/all-posts/page/80/
+2018-03-06 20:45:04 [日志以此来开头] INFO: infohttp://python.jobbole.com/all-posts/page/5/
+2018-03-06 20:45:06 [日志以此来开头] INFO: infohttp://python.jobbole.com/all-posts/page/7/
+2018-03-06 20:45:06 [日志以此来开头] INFO: infohttp://python.jobbole.com/all-posts/page/6/
+2018-03-06 20:45:06 [日志以此来开头] INFO: infohttp://python.jobbole.com/all-posts/page/77/
+2018-03-06 20:45:06 [日志以此来开头] INFO: infohttp://python.jobbole.com/all-posts/page/78/
+2018-03-06 20:45:08 [日志以此来开头] INFO: infohttp://python.jobbole.com/all-posts/page/75/
+2018-03-06 20:45:08 [日志以此来开头] INFO: infohttp://python.jobbole.com/all-posts/page/76/
+2018-03-06 20:45:12 [日志以此来开头] INFO: infohttp://python.jobbole.com/all-posts/page/9/
+2018-03-06 20:45:14 [日志以此来开头] INFO: infohttp://python.jobbole.com/all-posts/page/8/
+2018-03-06 20:45:23 [日志以此来开头] INFO: infohttp://python.jobbole.com/all-posts/page/74/
+2018-03-06 20:45:29 [日志以此来开头] INFO: infohttp://python.jobbole.com/all-posts/page/73/
+2018-03-06 20:45:42 [日志以此来开头] INFO: infohttp://python.jobbole.com/all-posts/page/10/
+2018-03-06 20:45:52 [日志以此来开头] INFO: infohttp://python.jobbole.com/all-posts/page/72/
+2018-03-06 20:45:54 [日志以此来开头] INFO: infohttp://python.jobbole.com/all-posts/page/71/
+2018-03-06 20:46:05 [scrapy.extensions.logstats] INFO: Crawled 181 pages (at 181 pages/min), scraped 153 items (at 153 items/min)
+2018-03-06 20:46:24 [日志以此来开头] INFO: infohttp://python.jobbole.com/all-posts/page/69/
+2018-03-06 20:46:46 [日志以此来开头] INFO: infohttp://python.jobbole.com/all-posts/page/70/
+2018-03-06 20:46:53 [日志以此来开头] INFO: infohttp://python.jobbole.com/all-posts/page/67/
+2018-03-06 20:46:53 [日志以此来开头] INFO: infohttp://python.jobbole.com/all-posts/page/68/
+2018-03-06 20:46:56 [日志以此来开头] INFO: infohttp://python.jobbole.com/all-posts/page/65/
+2018-03-06 20:46:57 [日志以此来开头] INFO: infohttp://python.jobbole.com/all-posts/page/66/
+2018-03-06 20:47:01 [scrapy.extensions.logstats] INFO: Crawled 292 pages (at 111 pages/min), scraped 258 items (at 105 items/min)
+2018-03-06 20:47:02 [日志以此来开头] INFO: infohttp://python.jobbole.com/all-posts/page/63/
+2018-03-06 20:47:02 [日志以此来开头] INFO: infohttp://python.jobbole.com/all-posts/page/64/
+2018-03-06 20:47:10 [日志以此来开头] INFO: infohttp://python.jobbole.com/all-posts/page/62/
+2018-03-06 20:47:10 [日志以此来开头] INFO: infohttp://python.jobbole.com/all-posts/page/61/
+2018-03-06 20:47:12 [日志以此来开头] INFO: infohttp://python.jobbole.com/all-posts/page/59/
+2018-03-06 20:47:12 [日志以此来开头] INFO: infohttp://python.jobbole.com/all-posts/page/60/
+2018-03-06 20:47:14 [日志以此来开头] INFO: infohttp://python.jobbole.com/all-posts/page/57/
+2018-03-06 20:47:14 [日志以此来开头] INFO: infohttp://python.jobbole.com/all-posts/page/58/
+2018-03-06 20:47:17 [日志以此来开头] INFO: infohttp://python.jobbole.com/all-posts/page/55/
+2018-03-06 20:47:17 [日志以此来开头] INFO: infohttp://python.jobbole.com/all-posts/page/56/
+2018-03-06 20:47:18 [日志以此来开头] INFO: infohttp://python.jobbole.com/all-posts/page/54/
+2018-03-06 20:47:18 [日志以此来开头] INFO: infohttp://python.jobbole.com/all-posts/page/53/
+2018-03-06 20:47:19 [scrapy.crawler] INFO: Received SIG_SETMASK, shutting down gracefully. Send again to force 
+2018-03-06 20:47:19 [scrapy.core.engine] INFO: Closing spider (shutdown)
+2018-03-06 20:47:19 [日志以此来开头] INFO: infohttp://python.jobbole.com/all-posts/page/52/
+2018-03-06 20:53:26 [scrapy.utils.log] INFO: Scrapy 1.5.0 started (bot: crawl_spider)
+2018-03-06 20:53:26 [scrapy.utils.log] INFO: Versions: lxml 4.1.1.0, libxml2 2.9.7, cssselect 1.0.3, parsel 1.4.0, w3lib 1.19.0, Twisted 17.9.0, Python 3.5.2 (default, Nov 23 2017, 16:37:01) - [GCC 5.4.0 20160609], pyOpenSSL 17.5.0 (OpenSSL 1.1.0g  2 Nov 2017), cryptography 2.1.4, Platform Linux-4.13.0-36-generic-x86_64-with-Ubuntu-16.04-xenial
+2018-03-06 20:53:26 [scrapy.crawler] INFO: Overridden settings: {'SPIDER_MODULES': ['crawl_spider.spiders'], 'NEWSPIDER_MODULE': 'crawl_spider.spiders', 'LOG_FILE': './log_setting_default', 'BOT_NAME': 'crawl_spider', 'LOG_LEVEL': 'INFO'}
+2018-03-06 20:53:26 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.memusage.MemoryUsage']
+2018-03-06 20:53:26 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2018-03-06 20:53:26 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2018-03-06 20:53:26 [scrapy.middleware] INFO: Enabled item pipelines:
+['crawl_spider.pipelines.CrawlSpiderPipeline']
+2018-03-06 20:53:26 [scrapy.core.engine] INFO: Spider opened
+2018-03-06 20:53:26 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2018-03-06 20:53:27 [日志以此来开头] INFO: infohttp://python.jobbole.com/all-posts/page/2/
+2018-03-06 20:53:27 [日志以此来开头] WARNING: warninghttp://python.jobbole.com/all-posts/page/2/
+2018-03-06 20:53:27 [日志以此来开头] ERROR: errorhttp://python.jobbole.com/all-posts/page/2/
+2018-03-06 20:53:27 [日志以此来开头] INFO: infohttp://python.jobbole.com/all-posts/page/81/
+2018-03-06 20:53:27 [日志以此来开头] WARNING: warninghttp://python.jobbole.com/all-posts/page/81/
+2018-03-06 20:53:27 [日志以此来开头] ERROR: errorhttp://python.jobbole.com/all-posts/page/81/
+2018-03-06 20:53:28 [日志以此来开头] INFO: infohttp://python.jobbole.com/all-posts/page/3/
+2018-03-06 20:53:28 [日志以此来开头] WARNING: warninghttp://python.jobbole.com/all-posts/page/3/
+2018-03-06 20:53:28 [日志以此来开头] ERROR: errorhttp://python.jobbole.com/all-posts/page/3/
+2018-03-06 20:53:28 [日志以此来开头] INFO: infohttp://python.jobbole.com/all-posts/page/4/
+2018-03-06 20:53:28 [日志以此来开头] WARNING: warninghttp://python.jobbole.com/all-posts/page/4/
+2018-03-06 20:53:28 [日志以此来开头] ERROR: errorhttp://python.jobbole.com/all-posts/page/4/
+2018-03-06 20:53:29 [日志以此来开头] INFO: infohttp://python.jobbole.com/all-posts/page/80/
+2018-03-06 20:53:29 [日志以此来开头] WARNING: warninghttp://python.jobbole.com/all-posts/page/80/
+2018-03-06 20:53:29 [日志以此来开头] ERROR: errorhttp://python.jobbole.com/all-posts/page/80/
+2018-03-06 20:53:29 [日志以此来开头] INFO: infohttp://python.jobbole.com/all-posts/page/79/
+2018-03-06 20:53:29 [日志以此来开头] WARNING: warninghttp://python.jobbole.com/all-posts/page/79/
+2018-03-06 20:53:29 [日志以此来开头] ERROR: errorhttp://python.jobbole.com/all-posts/page/79/
+2018-03-06 20:53:30 [日志以此来开头] INFO: infohttp://python.jobbole.com/all-posts/page/5/
+2018-03-06 20:53:30 [日志以此来开头] WARNING: warninghttp://python.jobbole.com/all-posts/page/5/
+2018-03-06 20:53:30 [日志以此来开头] ERROR: errorhttp://python.jobbole.com/all-posts/page/5/
+2018-03-06 20:53:30 [scrapy.crawler] INFO: Received SIG_SETMASK, shutting down gracefully. Send again to force 
+2018-03-06 20:53:30 [scrapy.core.engine] INFO: Closing spider (shutdown)
+2018-03-06 20:53:30 [日志以此来开头] INFO: infohttp://python.jobbole.com/all-posts/page/78/
+2018-03-06 20:53:30 [日志以此来开头] WARNING: warninghttp://python.jobbole.com/all-posts/page/78/
+2018-03-06 20:53:30 [日志以此来开头] ERROR: errorhttp://python.jobbole.com/all-posts/page/78/
+2018-03-06 20:53:30 [日志以此来开头] INFO: infohttp://python.jobbole.com/all-posts/page/6/
+2018-03-06 20:53:30 [日志以此来开头] WARNING: warninghttp://python.jobbole.com/all-posts/page/6/
+2018-03-06 20:53:30 [日志以此来开头] ERROR: errorhttp://python.jobbole.com/all-posts/page/6/
+2018-03-06 20:53:31 [日志以此来开头] INFO: infohttp://python.jobbole.com/all-posts/page/77/
+2018-03-06 20:53:31 [日志以此来开头] WARNING: warninghttp://python.jobbole.com/all-posts/page/77/
+2018-03-06 20:53:31 [日志以此来开头] ERROR: errorhttp://python.jobbole.com/all-posts/page/77/
+2018-03-06 20:53:32 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 16402,
+ 'downloader/request_count': 59,
+ 'downloader/request_method_count/GET': 59,
+ 'downloader/response_bytes': 1480810,
+ 'downloader/response_count': 59,
+ 'downloader/response_status_count/200': 59,
+ 'dupefilter/filtered': 79,
+ 'finish_reason': 'shutdown',
+ 'finish_time': datetime.datetime(2018, 3, 6, 12, 53, 32, 726938),
+ 'item_scraped_count': 48,
+ 'log_count/ERROR': 10,
+ 'log_count/INFO': 18,
+ 'log_count/WARNING': 10,
+ 'memusage/max': 546988032,
+ 'memusage/startup': 546988032,
+ 'request_depth_max': 4,
+ 'response_received_count': 59,
+ 'scheduler/dequeued': 59,
+ 'scheduler/dequeued/memory': 59,
+ 'scheduler/enqueued': 188,
+ 'scheduler/enqueued/memory': 188,
+ 'start_time': datetime.datetime(2018, 3, 6, 12, 53, 26, 914635)}
+2018-03-06 20:53:32 [scrapy.core.engine] INFO: Spider closed (shutdown)
