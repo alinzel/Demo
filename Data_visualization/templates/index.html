@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>数据可视化</title>
+    <script type="text/javascript" src='https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js'></script>
+    <script type="text/javascript" src='https://cdn.bootcss.com/echarts/4.0.4/echarts.min.js'></script>
+</head>
+<body>
+<div id="main" style="width: 600px;height:400px;"></div>
+<script type="text/javascript">
+    $.get('/json_data', function(data){
+        console.log(data)
+        // 获取Do节点,初始化echarts
+        var mychart = echarts.init(document.getElementById('main'))
+        console.log(mychart)
+        // 指定图标的数据和配置
+        var option = {
+            // 设置颜色
+            color: ['#003366','#e5323e'],
+            title: {
+               text: '表名', 
+            } ,
+            //  图列名称
+            legend: {
+                data: ['销量','价格']
+            },
+            // X轴
+            xAxis: {
+                data: data['x']
+            },
+            // y轴
+            yAxis: {},
+            // y轴数据
+            series: [
+                {
+                    name:'销量',
+                    type:'bar', //bar-柱状图, line-折线图
+                    data: data['y']
+                },
+                {
+                    name:'价格',
+                    type:'bar',
+                    data: data['y1']
+                }
+            ]
+        };
+
+        //使用刚配置好的显示图表--实例echarts.setOption(配置项名称)
+        mychart.setOption(option)
+})
+</script>
+</body>
+</html>
